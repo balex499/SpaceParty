@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 71558f25d696a624989b8adf21e94e22
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlanetsGold_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5710.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30e970079fee6e429fc6c078454bb06
+      internalID: -2070208021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_1
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 5710.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f57f5cb0a10d643a3a81738ebd1953
+      internalID: 1670815366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_2
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 5710.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24f8255c498ac646b813f6798fa8b5f
+      internalID: -889859454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_3
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 5710.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d91c328e8a442340a59637ba1954377
+      internalID: -798542102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_4
+      rect:
+        serializedVersion: 2
+        x: 8456
+        y: 5710.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ecdc9b21ff3634086bc2e829cdbfd7
+      internalID: -767985104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3807.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8249cf0033dc614b99933365b3a8912
+      internalID: 863991539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_6
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 3807.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b020a672751a4494ea7c001e91bcf6c7
+      internalID: 544243655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_7
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 3807.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677e19679f9a93140a0de6a0a08f13ff
+      internalID: -697167691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_8
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 3807.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b625b317c0e4c46994a6a7c32d12c4
+      internalID: 952262869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_9
+      rect:
+        serializedVersion: 2
+        x: 8456
+        y: 3807.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578fa82c06f0ef143b124f255eb2f90f
+      internalID: -1412732429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1904.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1e3cc53a335ba4b9b1d89cf8b3c9f9
+      internalID: 401350574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_11
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1904.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdd61bfcc9791f4cab4fe0d351b5071
+      internalID: -1720847067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_12
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 1904.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ecd17dc29d42e43b8e188f30ebdd63
+      internalID: -1900699297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_13
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 1904.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d2179722280344bb715eac1a05da15
+      internalID: 1779675806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_14
+      rect:
+        serializedVersion: 2
+        x: 8456
+        y: 1904.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f206c3745918ac34da2c71a8b2d837df
+      internalID: 1023146140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14656290d16ee54f82eaa1af885b47b
+      internalID: -663496674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_16
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735aa45442815f4449e7740fd6a4adbe
+      internalID: -1856033370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_17
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 1.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b742b62f2730e478dd7fcb718aa041
+      internalID: 741884359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_18
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 1.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25be248b1ba6daa47bb58760f31e1553
+      internalID: 1003568119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetsGold_19
+      rect:
+        serializedVersion: 2
+        x: 8456
+        y: 1.5
+        width: 2114.6
+        height: 1903.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60da85f473e3044d9b15f1d71ed61fd
+      internalID: 2054606569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlanetsGold_3: -798542102
+      PlanetsGold_17: 741884359
+      PlanetsGold_13: 1779675806
+      PlanetsGold_15: -663496674
+      PlanetsGold_18: 1003568119
+      PlanetsGold_8: 952262869
+      PlanetsGold_10: 401350574
+      PlanetsGold_1: 1670815366
+      PlanetsGold_4: -767985104
+      PlanetsGold_7: -697167691
+      PlanetsGold_6: 544243655
+      PlanetsGold_19: 2054606569
+      PlanetsGold_14: 1023146140
+      PlanetsGold_0: -2070208021
+      PlanetsGold_2: -889859454
+      PlanetsGold_9: -1412732429
+      PlanetsGold_11: -1720847067
+      PlanetsGold_12: -1900699297
+      PlanetsGold_5: 863991539
+      PlanetsGold_16: -1856033370
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
