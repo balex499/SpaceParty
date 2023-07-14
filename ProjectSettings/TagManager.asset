@@ -11,11 +11,11 @@ TagManager:
   - Bounds
   - Water
   - UI
-  - Enemies
+  - Obstacles
   - GUI
   - MinimapMark
-  - 
-  - 
+  - Enemies
+  - Background
   - 
   - 
   - 

@@ -32,6 +32,17 @@ public class Meteor : MonoBehaviour
             player.TakeDamage();
             _meteorsSpawner.DestroyMeteor(this);
         }
+
+        if (collision.gameObject.TryGetComponent(out Enemy enemy))
+        {
+            enemy.TakeDamage();
+            _meteorsSpawner.DestroyMeteor(this);
+        }
+
+        if (collision.gameObject.TryGetComponent(out Rocket rocket))
+        {
+            _meteorsSpawner.DestroyMeteor(this);
+        }
     }
 
 }

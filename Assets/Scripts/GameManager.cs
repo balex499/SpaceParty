@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,22 +18,21 @@ public class GameManager : MonoBehaviour
     [SerializeField] private RectTransform _miniMap;
     [SerializeField] private GameObject _secondPlayerUI;
 
+    private bool _twoPlayersMode;
+    private bool _p2PlayButtonBlocked = false;
+
     private void Awake()
     {
         Instance = this;
         SetTwoPlayersMode(false);
+        InitializeMode();
     }
 
-    private bool _twoPlayersMode;
-
-    private void OnDrawGizmos()
+    private void Start()
     {
-        Gizmos.color = new Color(1.0f, 0.5f, 0.0f);
-        Vector2 position = new Vector2(-_bounds.x * 0.5f, -_bounds.y * 0.5f);
-        DrawRect(new Rect(position, _bounds));
+        GeneralUI.StartTimer(80);
     }
 
-    private bool _p2PlayButtonBlocked = false;
     private void Update()
     {
         if (Input.GetAxis("Player2Start") == 1 && _p2PlayButtonBlocked == false)
@@ -45,6 +45,16 @@ public class GameManager : MonoBehaviour
         if (Input.GetAxis("Player2Start") == 0 && _p2PlayButtonBlocked == true)
         {
             _p2PlayButtonBlocked = false;
+        }
+    }
+    private void InitializeMode()
+    {
+        int mode = 0;
+        switch (mode)
+        {
+            case 0:
+
+                break;
         }
     }
 
@@ -61,5 +71,12 @@ public class GameManager : MonoBehaviour
         _twoPlayersMode = !_twoPlayersMode;
         _secondPlayerUI.SetActive(status);
         _miniMap.anchoredPosition = status ? new Vector2(0, 130) : new Vector2(560, 130);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = new Color(1.0f, 0.5f, 0.0f);
+        Vector2 position = new Vector2(-_bounds.x * 0.5f, -_bounds.y * 0.5f);
+        DrawRect(new Rect(position, _bounds));
     }
 }

@@ -15,7 +15,6 @@ public class HealthBar : MonoBehaviour
     public void SetValue(int input)
     {
         int count = Mathf.Clamp(input, 0, _images.Count);
-        Debug.Log(input);
         for (int i = 0; i < _images.Count; i++)
         {
             _images[i].enabled = count > 0;

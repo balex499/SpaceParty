@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public Camera LinkedCamera;
     public UnityEvent<int> OnDamaged;
     private int _health = 3;
+    private Vector3 _spawn;
     public int Health
     {
         get => _health;
@@ -25,7 +26,8 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        LinkedCamera.GetComponent<FollowPlayer>().SetTarget(transform);        
+        LinkedCamera.GetComponent<FollowPlayer>().SetTarget(transform);
+        _spawn = transform.position;
     }
 
     public void TakeDamage()
@@ -38,5 +40,14 @@ public class Player : MonoBehaviour
         GameObject explosion = Instantiate(Resources.Load("VFX/Explosion", typeof(GameObject))) as GameObject;
         explosion.transform.position = transform.position;
         gameObject.SetActive(false);
+        GeneralUI.DeathPenalty(this);
+        Invoke(nameof(Respawn), 5f);
+    }
+
+    private void Respawn()
+    {
+        transform.position = _spawn;
+        Health = 3;
+        gameObject.SetActive(true);
     }
 }

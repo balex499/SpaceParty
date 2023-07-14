@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 8703398430611355865}
   - component: {fileID: 3204118258793475932}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Mark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8703398430611355865
 Transform:
   m_ObjectHideFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1141111505844498964}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.17, y: 0, z: 0}
-  m_LocalScale: {x: 79.20258, y: 79.20258, z: 79.20258}
+  m_LocalScale: {x: 2, y: 2, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7616534504057217589}
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -4
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.44390363, g: 0.375445, b: 0.5566038, a: 1}
+  m_Sprite: {fileID: 1495253597, guid: 5c6abf2627afcc84d8519f1557c6def2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
